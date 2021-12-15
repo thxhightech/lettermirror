@@ -66,6 +66,8 @@ header {
 }
 
 .heading_1 {
+    color: white;
+    background-color: rgb(53, 53, 53);
     padding: 10px;
 }
 
@@ -83,12 +85,10 @@ span {
 }
 
 .product_body {
-    padding-top: 25px;
     margin-left: 25px;
     margin-right: 25px;
     display: flex;
     align-items: center;
-    border: 5px solid black;
 }
 
 .product_photo {
