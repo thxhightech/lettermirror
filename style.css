@@ -69,4 +69,19 @@ header {
     padding: 10px;
 }
 
+.product_header p {
+    text-align: center;
+    letter-spacing: 5px;
+}
 
+span {
+    color: #EB4A09;
+}
+
+.product_body {
+    display: flex;
+}
+
+.product_photo {
+    padding: 100px;
+}
