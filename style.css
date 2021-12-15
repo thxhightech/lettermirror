@@ -72,6 +72,18 @@ header {
     margin-bottom: 75px;
 }
 
+.SpeakerDeck{
+    text-align: center;
+}
+
+.Youtube{
+    text-align: center;
+}
+
+.youtube iframe {
+
+  }
+
 ul {
     list-style: none;
     padding: 0;
