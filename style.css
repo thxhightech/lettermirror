@@ -69,6 +69,18 @@ header {
     padding: 10px;
 }
 
+.SpeakerDeck{
+    text-align: center;
+}
+
+.Youtube{
+    text-align: center;
+}
+
+.youtube iframe {
+
+  }
+
 .product_header p {
     text-align: center;
     letter-spacing: 5px;
