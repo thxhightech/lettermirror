@@ -200,7 +200,7 @@ span {
 }
 
 @media screen and (max-width:400px) {
-    .product_header {
+    .product_header p{
         font-size: 13px;
     }
 }
