@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
     font-size: 1vw;
     font-weight: bold;
     letter-spacing: 2px;
@@ -26,6 +27,13 @@ body {
     height: 100px;
 }
 
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 75px;
+        height: 50px;
+    }
+}
+
 .header_contents {
     display: flex;
     align-items: center;
@@ -35,13 +43,12 @@ body {
 
 .list {
     list-style: none;
-    padding-right: 90px;
 }
 
 .list li {
-    width: 160px;
     text-align: end;
     display: inline-block;
+    margin: 0 1vw 0 1vw;
 }
 .list li a {
     text-decoration: none;
