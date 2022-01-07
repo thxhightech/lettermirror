@@ -201,7 +201,7 @@ span {
 
 @media screen and (max-width:400px) {
     .product_header {
-        font-size: 2px;
+        font-size: 13px;
     }
 }
 .photo_name {
