@@ -38,7 +38,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .list {
@@ -53,6 +52,12 @@ body {
 .list li a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 400px) {
+    .list li a {
+        font-size: 10px;
+    }
 }
 
 header {
@@ -119,7 +124,6 @@ ul {
 }
 
 /* ここからがニュース記事のCSS */
-
 .news_list {
   margin: 0 5%;
 }
@@ -163,6 +167,11 @@ ul {
   right: 0;
 }
 
+@media screen and (max-width:400px) {
+    .news_contents p {
+        font-size: 10px;
+    }
+}
 .main_2 {
     display: flex;
     justify-content: center;
@@ -192,6 +201,11 @@ span {
     color: #EB4A09;
 }
 
+@media screen and (max-width:400px) {
+    .product_header {
+        font-size: 2px;
+    }
+}
 .photo_name {
     color: white;
     background-color: rgb(53, 53, 53);
@@ -199,6 +213,7 @@ span {
 }
 
 .product_body {
+    height: 70vw;
     margin-left: 25px;
     margin-right: 25px;
     display: flex;
@@ -223,10 +238,6 @@ span {
     padding: 5%;
 }
 
-.wrapper{
-    min-height: 100vh;
-    position: relative;/*←相対位置*/
-}
 
 footer{
     width: 100%;
@@ -236,22 +247,6 @@ footer{
     text-align: center;
     padding: 2vw 0;
 
-    position: absolute;/*←絶対位置*/
-}
-
-@media screen and (width < 900px) {
-
-    .logo {
-        width: 75px;
-        height: 50px;
-    }
-
-    .list {
-        padding: none;
-    }
-
-    .list li a {
-        font-size: 5px;
-    }
-
+    position: fixed;/*←絶対位置*/
+    bottom: 0;
 }
