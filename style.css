@@ -218,15 +218,6 @@ span {
     align-items: center;
 }
 
-.member_body {
-    height: 35vw;
-    margin-left: 25px;
-    margin-right: 25px;
-    display: flex;
-    align-items: center;
-}
-
-
 .product_photo {
     width: 50%;
 }
@@ -249,6 +240,32 @@ span {
     .product_comment p {
         font-size: 8px;
     }
+}
+
+.member_body {
+    height: 35vw;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.member_comment p {
+    font-size: 125%;
+    line-height: 150%;
+    padding: 5%;
+}
+
+@media screen and (max-width:400px) {
+    .member_comment p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .product_main {
+        font-size: 10px;
+    } 
 }
 
 
